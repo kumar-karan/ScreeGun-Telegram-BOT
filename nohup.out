@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/karankumar/Code/SS Telegram BOT/screenshot_bot.py", line 2, in <module>
+    import pyautogui
+  File "/opt/homebrew/lib/python3.11/site-packages/pyautogui/__init__.py", line 246, in <module>
+    import mouseinfo
+  File "/opt/homebrew/lib/python3.11/site-packages/mouseinfo/__init__.py", line 100, in <module>
+    from rubicon.objc import ObjCClass, CGPoint
+  File "/opt/homebrew/lib/python3.11/site-packages/rubicon/objc/__init__.py", line 33, in <module>
+    from . import api, collections, runtime, types
+  File "/opt/homebrew/lib/python3.11/site-packages/rubicon/objc/api.py", line 29, in <module>
+    from .runtime import (
+  File "/opt/homebrew/lib/python3.11/site-packages/rubicon/objc/runtime.py", line 460, in <module>
+    libobjc.objc_msgSendSuper_stret.restype = None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ctypes/__init__.py", line 389, in __getattr__
+    func = self.__getitem__(name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ctypes/__init__.py", line 394, in __getitem__
+    func = self._FuncPtr((name_or_ordinal, self))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: dlsym(0x3bebe45ec, objc_msgSendSuper_stret): symbol not found
+/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/karankumar/Code/SS Telegram BOT/17201': [Errno 2] No such file or directory
